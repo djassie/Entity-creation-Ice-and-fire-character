@@ -1,0 +1,48 @@
+uuid: 5730c331-9ae8-4127-af83-c773472b0636
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.character.field_aliases
+    - field.field.node.character.field_allegiances
+    - field.field.node.character.field_books
+    - field.field.node.character.field_born
+    - field.field.node.character.field_culture
+    - field.field.node.character.field_father
+    - field.field.node.character.field_gender
+    - field.field.node.character.field_mother
+    - field.field.node.character.field_name
+    - field.field.node.character.field_playedby
+    - field.field.node.character.field_povbooks
+    - field.field.node.character.field_spouse
+    - field.field.node.character.field_titles
+    - field.field.node.character.field_tvseries
+    - node.type.character
+  module:
+    - user
+id: node.character.teaser
+targetEntityType: node
+bundle: character
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_aliases: true
+  field_allegiances: true
+  field_books: true
+  field_born: true
+  field_culture: true
+  field_father: true
+  field_gender: true
+  field_mother: true
+  field_name: true
+  field_playedby: true
+  field_povbooks: true
+  field_spouse: true
+  field_titles: true
+  field_tvseries: true

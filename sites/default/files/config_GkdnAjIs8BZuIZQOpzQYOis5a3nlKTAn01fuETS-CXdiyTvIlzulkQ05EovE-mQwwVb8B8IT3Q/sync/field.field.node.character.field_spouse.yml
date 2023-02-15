@@ -1,0 +1,19 @@
+uuid: e0d26be8-824c-4638-b00c-93010d784a81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spouse
+    - node.type.character
+id: node.character.field_spouse
+field_name: field_spouse
+entity_type: node
+bundle: character
+label: spouse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

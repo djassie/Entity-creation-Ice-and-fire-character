@@ -1,0 +1,19 @@
+uuid: d4215ff5-69dd-4666-808c-07f8a85ef5eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_playedby
+    - node.type.character
+id: node.character.field_playedby
+field_name: field_playedby
+entity_type: node
+bundle: character
+label: playedBy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

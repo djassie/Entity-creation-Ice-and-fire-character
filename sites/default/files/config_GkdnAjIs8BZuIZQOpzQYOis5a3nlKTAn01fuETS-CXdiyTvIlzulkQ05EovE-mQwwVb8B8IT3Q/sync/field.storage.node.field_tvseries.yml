@@ -1,0 +1,45 @@
+uuid: 601565c4-48cc-456f-8b2b-1bab7b48811a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_tvseries
+field_name: field_tvseries
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Season 1'
+      label: 'Season 1'
+    -
+      value: 'Season 2'
+      label: 'Season 2'
+    -
+      value: 'Season 3'
+      label: 'Season 3'
+    -
+      value: 'Season 4'
+      label: 'Season 4'
+    -
+      value: 'Season 5'
+      label: 'Season 5'
+    -
+      value: 'Season 6'
+      label: 'Season 6'
+    -
+      value: 'Season 7'
+      label: 'Season 7'
+    -
+      value: 'Season 8'
+      label: 'Season 8'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

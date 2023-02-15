@@ -1,0 +1,19 @@
+uuid: a4c2eebe-d24c-4032-b4a5-826ab2bfd072
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_books
+    - node.type.character
+id: node.character.field_books
+field_name: field_books
+entity_type: node
+bundle: character
+label: books
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 5ba2041a-04bc-4eb5-8b34-8980ef63d1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tvseries
+    - node.type.character
+  module:
+    - options
+id: node.character.field_tvseries
+field_name: field_tvseries
+entity_type: node
+bundle: character
+label: tvSeries
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

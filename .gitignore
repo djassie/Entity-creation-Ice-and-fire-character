@@ -25,3 +25,4 @@ core/
 composer.lock
 #modules/contrib
 sites/sites.php
+/example.gitignore

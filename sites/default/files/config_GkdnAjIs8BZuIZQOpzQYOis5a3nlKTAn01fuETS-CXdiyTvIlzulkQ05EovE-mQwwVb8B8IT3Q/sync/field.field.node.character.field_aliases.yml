@@ -1,0 +1,21 @@
+uuid: 60c8ae1e-e0e3-485f-9506-670671f401ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aliases
+    - node.type.character
+  module:
+    - options
+id: node.character.field_aliases
+field_name: field_aliases
+entity_type: node
+bundle: character
+label: aliases
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

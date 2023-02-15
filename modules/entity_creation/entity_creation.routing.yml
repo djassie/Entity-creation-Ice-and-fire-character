@@ -1,0 +1,16 @@
+# entity_creation.character:
+#   path: '/entity-creation/character/{id}'
+#   defaults:
+#     _title: 'Entity Creation'
+#     _controller: '\Drupal\entity_creation\Controller\EntityCreationController::build'
+#   requirements:
+#     _permission: 'access content'
+
+entity_creation.character:
+  path: '/entity-creation/character/{id}'
+  defaults:
+    _title: 'Entity Creation'
+    _controller: '\Drupal\entity_creation\Controller\EntityCreationController::build'
+  requirements:
+    _permission: 'access content'
+

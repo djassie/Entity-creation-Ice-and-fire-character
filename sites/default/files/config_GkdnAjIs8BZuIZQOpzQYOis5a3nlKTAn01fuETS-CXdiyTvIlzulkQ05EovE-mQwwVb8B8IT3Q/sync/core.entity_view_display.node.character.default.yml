@@ -1,0 +1,143 @@
+uuid: fe3ef2bf-167e-4c1f-ae3f-93db27c98643
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.character.field_aliases
+    - field.field.node.character.field_allegiances
+    - field.field.node.character.field_books
+    - field.field.node.character.field_born
+    - field.field.node.character.field_culture
+    - field.field.node.character.field_father
+    - field.field.node.character.field_gender
+    - field.field.node.character.field_mother
+    - field.field.node.character.field_name
+    - field.field.node.character.field_playedby
+    - field.field.node.character.field_povbooks
+    - field.field.node.character.field_spouse
+    - field.field.node.character.field_titles
+    - field.field.node.character.field_tvseries
+    - node.type.character
+  module:
+    - options
+    - user
+id: node.character.default
+targetEntityType: node
+bundle: character
+mode: default
+content:
+  field_aliases:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_allegiances:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_books:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_born:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_culture:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_father:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_gender:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_mother:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_playedby:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_povbooks:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_spouse:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_titles:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_tvseries:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

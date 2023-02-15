@@ -1,0 +1,19 @@
+uuid: bc7d39ec-30b1-4a02-a663-af8b124bbc40
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_culture
+    - node.type.character
+id: node.character.field_culture
+field_name: field_culture
+entity_type: node
+bundle: character
+label: culture
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
