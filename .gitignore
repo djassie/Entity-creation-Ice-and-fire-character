@@ -1,0 +1,27 @@
+sites/default/settings.php
+sites/*/sites*.php
+sites/sites.php
+sites/*/settings.inc
+sites/*/services.yml
+sites/*/services*.yml
+# Ignore paths that contain user-generated content.
+#sites/*/files
+#sites/*/private
+sites/default/files/css
+sites/default/files/js
+sites/default/files/php
+sites/default/.DS_Store
+themes/custom/ince/node_modules
+
+# Drupal
+/core
+/console
+.htaccess
+/.ht.router.php
+/INSTALL.txt
+/autoload.php
+vendor/
+core/
+composer.lock
+#modules/contrib
+sites/sites.php
