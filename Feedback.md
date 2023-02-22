@@ -1,0 +1,2 @@
+- There should be validation - after calling REST
+- Depdendency Injection
